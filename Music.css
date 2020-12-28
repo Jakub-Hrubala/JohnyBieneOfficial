@@ -1,0 +1,82 @@
+body{
+    margin: auto;
+    height: 920px;
+    background: rgb(0,0,0) url("../Johnny/img/Jano\ Logo\ 4\ mini.png") 50% no-repeat;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,255,106,1) 92%) no-repeat; 
+}
+
+.links{
+    margin-top: -275px;
+    position: fixed;
+    display: flex;
+    background: url("../Johnny/img/Jano\ Logo\ 4\ 155x87.png") 50% no-repeat;
+    height: 67px;
+    border: 5px solid #070707;
+    background-color: #070707;
+    width: 100%;
+    padding: 7px;
+}
+
+.youtubelogo{
+    margin-top: 20px;
+    padding-left: 32px;
+}
+
+.youtube{
+    margin-top: 0px;
+    padding-left: 29px;
+    font-family: monospace;
+}
+    
+
+.instagram {
+    margin: -5px;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+.instagramlogo{
+    margin-top: 15px;
+}
+
+.menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #575757;
+    width: 100%;
+}
+
+.menu{
+    padding: 15px;
+    margin-top: -185px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.home:hover,
+.home:focus{
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+.music:hover,
+.music:focus{
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+main{
+    margin-top: 250px;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    color: #ffff;
+}

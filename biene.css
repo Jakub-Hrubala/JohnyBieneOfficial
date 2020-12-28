@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 920;
+    margin: auto;
+    height: 1920px;
+    background: rgb(0,0,0) url("../Johnny/img/Jano\ Logo\ 4\ mini.png") 50% no-repeat;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,255,106,1) 92%) no-repeat; 
+}
+
+
+.links{
+    margin-top: -25px;
+    position: fixed;
+    display: flex;
+    background: url("../Johnny/img/Jano\ Logo\ 4\ 155x87.png") 50% no-repeat;
+    height: 67px;
+    border: 5px solid #070707;
+    background-color: #070707;
+    width: 100%;
+    padding: 7px;
+}
+
+.youtubelogo{
+    margin-top: 20px;
+    padding-left: 32px;
+}
+
+.youtube{
+    margin-top: 0px;
+    padding-left: 29px;
+    font-family: monospace;
+}
+    
+
+.instagram {
+    margin: -5px;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+.instagramlogo{
+    margin-top: 15px;
+}
+
+.menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #575757;
+    width: 100%;
+}
+
+.menu{
+    padding: 15px;
+    margin-top: 65px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+ 
+/*transform and transitions*/
+
+.youtubelogo:hover,
+.youtubelogo:focus{
+    transform: scale(1.1);
+    transition: all ease 0,60s;
+}
+
+.instagramlogo:hover,
+.instagramlogo:focus{
+    transform: scale(1.1);
+    transition: all ease 0,60s;
+
+}
+
+
+
+
+.home:hover,
+.home:focus{
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+.about:hover,
+.about:focus{
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+.music:hover,
+.music:focus{
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+.cinemake:hover,
+.cinemake:focus{
+    transform: scale(1.1);
+    transition: all ease 1s;
+}
+
+
+
+main{
+    margin-top: 100px;
+}
+
+h2{
+
+    color: #ffffff;
+    font-size: 48px;
+    border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    background: #649F6C;
+    display: block;
+    width: 100%;
+}
+
+h6{
+    margin-top: 30px;
+    text-indent: -999999999999999px;
+}
+
+.msc{
+    margin-top: 9.5%;
+}
+
+.last-video{
+    margin-top: 10%;
+    margin-left: auto;
+    border: 15px solid green;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 35px;
+}
+
+.oredr_video{
+    margin-top: 10%;
+    margin-left: auto;
+    border: 15px solid green;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
